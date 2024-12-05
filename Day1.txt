@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title> KS-Webpage</title>
+        <link rel="shortcut icon" href="./Images/globe images.jfif" type="image/x-icon">
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                /* border color seperate border-color red; */
+            }
+            th,td{
+                padding: 15px;
+            }
+            table{
+                border-spacing: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- elements & attributes -->
+         <h1>Hello World</h1>
+         <h2>Have a nice day</h2>
+         <a href="https://www.google.co.in">Visit Google</a>
+         <br><br>
+        <a>Images</a><br><br>
+         <img src="./Images/pexels-pixabay-60597.jpg" alt="Images" width="200px" height="200px"></a>
+         <img src="./Images/Leaves.avif" alt="Images" width="200px" height="200px"></a>
+         <img src="./Images/18359482-webinar_3x2.jpg" alt="Images" width="200px" height="200px"></a>
+         <p><b>This is my website content</b></p>
+            <table style="width: 50%;">
+                <tr style="height: 60px;">
+                   <th>Sl.No.</th>
+                   <th>Name</th>
+                   <th>Rank</th>
+                   <th>District</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>K.Shanthi</td>
+                    <td>SI</td>
+                    <td>Chennai</td>
+                </tr>
+                <tr>
+                   <td>2</td>
+                    <td>K.Abhinav</td>
+                    <td>SP</td>
+                    <td>Trichy</td>
+                </tr>
+    </table></br>
+    <h4>Column-Span</h4>
+    <table style="width: 50%;"> 
+        <tr style="height: 60px;">
+            <th colspan="2">Name</th>
+            <th>Rank</th>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>Shanthi</td>
+            <td>SI</td>
+        </tr>
+            </table></br>
+            <h4>Row-Span</h4>
+        <table style="width: 50%;">
+            <tr style="height: 60px;">
+                <th>First Name</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td rowspan="2">K</td>
+                <td>Shanthi</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Akshara</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </br>
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h4>Ordered List</h4>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <br>
+    <h2>Registration Form</h2>
+    <form action="https://www.google.com/" method="post">
+        <label>Name</label>
+        <input type="text" placeholder="Name" required>
+        <br><br>
+        <label for ="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <br><br>
+        <input type="checkbox">
+        <label for="html">HTML</label>
+        <input type="checkbox">
+        <label for="css">CSS</label>
+        <input type="checkbox">
+        <label for="java">JAVA</label>
+        <button>Submit</button>
+        <br>
+        <br>
+        <Label>Date</Label>
+        <input type="date">
+    </form>
+    </body>
+</html>
